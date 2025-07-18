@@ -1,0 +1,19 @@
+.notes {
+    display: flex;
+    gap: 10px;           /* espace entre les notes */
+    flex-wrap: wrap;     /* optionnel : va à la ligne si trop de notes */
+}
+
+.notes p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.conteneur {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  height: 100vh;           /* hauteur du conteneur pour le centrage vertical */
+}
